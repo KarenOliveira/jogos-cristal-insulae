@@ -17,6 +17,6 @@ public class GameMaster : MonoBehaviour {
     public void StartGame()
     {
         Debug.Log("Start Game");
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Introduction");
     }
 }
